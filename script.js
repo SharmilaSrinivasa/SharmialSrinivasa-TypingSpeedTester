@@ -68,7 +68,15 @@ function start()
 // Reset everything:
 function reset()
 {
-    console.log("Reset button activated");
+    //console.log("Reset button activated");
+    clearInterval(interval);
+    interval = null;
+    timer = [0,0,0,0];
+    timerRunning = false;
+
+    testArea.value = "";
+    theTimer.innerHTML = "00:00:00";
+    testWrapper.style.borderColor = "grey";
 }
 
 
