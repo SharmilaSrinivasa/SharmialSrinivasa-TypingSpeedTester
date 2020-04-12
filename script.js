@@ -61,7 +61,7 @@ function start()
         timerRunning = true;
         interval = setInterval(runTimer, 10);
     }
-    console.log(textEnteredLength);
+    //console.log(textEnteredLength);
 }
 
 
